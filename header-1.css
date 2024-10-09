@@ -1,0 +1,148 @@
+
+header{
+    .logo{
+        flex: 1 0 100px;
+        padding: 15px 0;
+        .h5{
+            color:  #ff5361;
+           font-size: 30px;
+           font-weight: 500;
+        }
+    }
+    .search{
+        flex: 0 1 auto;
+        border: solid 1px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        border-radius: 40px;
+        margin-left: 10px;
+        background-color: #fff;
+        margin-top: 850px;
+        button{
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            &.search-guest{
+                position: relative;
+                padding-right: 50px ;
+                a{
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    background-color: red;
+                    border-radius: 25px;
+                    position: absolute;
+                    right: 5px;
+                    top: 6px;
+                    ion-icon{
+                        color: #fff;
+                        font-size: 30px;
+                        font: bold;
+                        top: 30px;
+                    }
+            }
+            }
+        }
+    }
+    .user{
+        flex: 1 0 100px;
+        .left-nav{
+            margin-bottom: 0px;
+            li{
+
+              
+                a{
+                    display: inline-block;
+                    padding: 1px 3px;
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: bold;
+                    border-radius: 20px;
+                    
+                }
+                .icon{
+                    height: 30px;
+                    width: 25px;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                }
+                
+            }
+            &:last-child{
+                a{
+                    margin-left: 2px;
+                }
+            }
+        }
+        .dropdown{
+            border: solid 1px rgba(0,0,0,0.1);
+                border-radius: 40px;
+            .btn{
+                .user-button{
+                    span{
+                        display: block;
+                        width: 15px;
+                        height: 2px;
+                        background: #000 ;
+                        &:nth-child(2){
+                            margin: 3px 0;
+                    }
+                    }
+                }
+                .icon-user{
+                    height: 20px;
+                    width: 25px;
+                    opacity: 0.5;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                    color: #000;
+                }
+                 &::after{
+                    display: none;
+                }
+                 &.show:hover{
+                    box-shadow: 0 4px 13px rgba(0,0,0,0.3); 
+                }  
+				
+            } 
+            .dropdown-menu{
+                width: 100px;
+                border: none;
+                border-radius: 20px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+                ul{
+                li{
+                    a{
+                        display: block;
+                        padding: 10px 15px;
+                    }
+                }
+            }
+            } 
+        }
+    }
+    height: 80px;
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+    position: relative;
+    
+}
+/* hedaer image */
+.hedaer{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    background-image: url(image/images/banner.png);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    .image-title{
+        padding: 0 7%;
+        h1{
+            font-size: 60px;
+            font-weight: 500;
+            color: #fff;
+            text-align: center;
+            transition: 1s;
+            
+        }
+    }
+
+}
